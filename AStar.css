@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    font-size: 120%;
+    font-weight: 700;
+    width: 995px;
+    background-color: #9370DB;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.gridLayout {
+    display: grid;
+    padding: 0px;
+    /*creates a 10x10 grid layout*/
+    grid-template-columns: 50px 51px 50px 50.5px 50.5px 50.5px 52px 52px 50px 50px 50px 51px 50px 50.5px 50.5px 50.5px 52px 52px 50px 50px;
+    grid-template-rows: 50px 51px 50px 50.5px 50.5px 50.5px 52px 52px 50px 50px 50px 51px 50px 50.5px 50.5px 50.5px 52px 52px 50px 50px;
+    font-size: 120%;
+}
+ 
+.square {
+    height: 50px;
+    width: 50px;
+    padding: 0px;
+    border: 1px solid black;
+    position: relative;
+    text-align: center;
+    text-size-adjust: 150%;
+}
+.button1 {
+    margin: 0px;
+    margin-top: 10px;
+    width: 495px;
+    height: 100px;
+    font-size: 200%;
+}
+.button2 {
+    margin: 470px;
+    margin-top: 10px;
+    width: 495px;
+    height: 100px;
+    font-size: 200%;
+}
