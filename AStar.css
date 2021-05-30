@@ -43,3 +43,12 @@
     height: 100px;
     font-size: 200%;
 }
+
+.githubLink {
+    position: relative;
+}
+
+.whole{
+    display: grid;
+    grid-template-columns: auto 100%;
+}
