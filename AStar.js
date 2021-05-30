@@ -261,5 +261,5 @@ function LoopOnClick(){
 }
 function Distance(i,j){
     //Pythagoream theorem rounded to the 2nd decimal point
-    return parseFloat((Math.sqrt(Math.pow(end.j - j, 2) + Math.pow(end.i - i, 2))).toFixed(2))
+    return Math.round(parseFloat((Math.sqrt(Math.pow(end.j - j, 2) + Math.pow(end.i - i, 2)))))
 }
